@@ -5,7 +5,7 @@ function Inicio() {
         <ContainerInicio>
             <div className="text">
                 <small>Olá, eu sou</small>
-                <h1>Tárcio Teixeira</h1>
+                <h1>Tárcio <span>Teixeira</span> </h1>
                 <p>
                     Sou um desenvolvedor front-end, especialista na linguagem
                     JavaScript, tenho competência em desenvolver 
@@ -15,18 +15,37 @@ function Inicio() {
                 </p>
                 <div className="social_links">
                     <ul>
-                        <li>Linkedin</li>
-                        <li>github</li>
-                        <li>email</li>
-                        <li>whatsapp</li>
+                        <li> 
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <small>Linkedin</small>
+                            </a> 
+                        </li>
+                        <li> 
+                            <a href="#">
+                                <i class="fa-brands fa-github"></i>
+                                <small>GitHub</small>
+                            </a> 
+                        </li>
+                        <li> 
+                            <a href="#">
+                                <i class="fa-brands fa-square-whatsapp"></i>
+                                <small>Whatsapp</small>
+                            </a> 
+                        </li>
+                        <li> 
+                            <a href="#">
+                                <i class="fa-solid fa-envelope"></i>
+                                <small>email</small>
+                            </a> 
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
-            <div className="image">
-                <div>
-                    <img src="../../assets/perfil_linkedin.jpg"
-                    alt="img"></img>
-                </div>
+            <div>
+                <img src="https://github.com/tarcio02/portfolio_react/blob/master/src/assets/perfil_linkedin.jpg?raw=true"
+                alt="img"></img>
             </div>
         </ContainerInicio>
     )

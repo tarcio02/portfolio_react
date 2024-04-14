@@ -27,4 +27,10 @@ export const Nav = styled.div`
             border-bottom: solid 1px #0c2461;
         }
     }
+
+    @media (max-width: 667px){
+        ul{
+            display: none;
+        }
+    }
 `
