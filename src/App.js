@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import Inicio from "./components/inicio";
+import NavBar from "./components/navBar";
+import SobreMim from "./components/sobreMim/sobreMim";
+import Habilidades from "./components/habilidades/habilidades";
+import MeusProjetos from "./components/meusProjetos/meusProjetos";
+import GlobalStyled, { Container } from "./styles/global";
+
+const rotas = createBrowserRouter([
+  {
+    path: "/",
+    element: <Inicio />
+  },
+  {
+    path: "/sobremim",
+    element: <SobreMim />
+  },
+  {
+    path: "/Habilidades",
+    element: <Habilidades />
+  },
+  {
+    path: "/meusprojetos",
+    element: <MeusProjetos />
+  }
+])
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <GlobalStyled />
+      <NavBar />
+      <RouterProvider router={rotas}/>
+    </ Container>
   );
 }
 
