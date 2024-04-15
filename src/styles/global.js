@@ -8,11 +8,11 @@ const GlobalStyled = createGlobalStyle`
     font-family: monospace;
 }
 `
-export const Container = styled.div`
+export const MainContainer = styled.div`
     height: 100vh;
     width: 80vw;
     margin: 0 auto;
+    border: solid 1px black;
 `
-
 
 export default GlobalStyled

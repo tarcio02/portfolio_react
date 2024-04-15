@@ -47,7 +47,7 @@ function Inicio() {
                 <img src="https://github.com/tarcio02/portfolio_react/blob/master/src/assets/perfil_linkedin.jpg?raw=true"
                 alt="img"></img>
             </div>
-        </ContainerInicio>
+        </ ContainerInicio>
     )
 }
 export default Inicio

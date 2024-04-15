@@ -1,5 +1,11 @@
+import { ContainerHabilidades } from "./style"
+
 function Habilidades(){
-    return <h1>Habilidades</h1>
+    return (
+        <ContainerHabilidades>
+            <h1>Habilidades</h1>
+        </ContainerHabilidades>
+    )
 }
 
 export default Habilidades

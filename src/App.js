@@ -5,7 +5,7 @@ import NavBar from "./components/navBar";
 import SobreMim from "./components/sobreMim/sobreMim";
 import Habilidades from "./components/habilidades/habilidades";
 import MeusProjetos from "./components/meusProjetos/meusProjetos";
-import GlobalStyled, { Container } from "./styles/global";
+import GlobalStyled, { MainContainer } from "./styles/global";
 
 const rotas = createBrowserRouter([
   {
@@ -28,11 +28,13 @@ const rotas = createBrowserRouter([
 
 function App() {
   return (
-    <Container>
-      <GlobalStyled />
+  <>
+    <GlobalStyled />
+    <MainContainer>
       <NavBar />
       <RouterProvider router={rotas}/>
-    </ Container>
+    </ MainContainer>
+  </>
   );
 }
 

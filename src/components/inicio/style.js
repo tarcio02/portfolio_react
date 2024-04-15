@@ -14,10 +14,13 @@ export const ContainerInicio = styled.div`
     .text{
         max-width: 600px;
 
-        h1 span{
-            color: #0c2461;
-        }
+    h1{
+        font-size: 32px;
     }
+    h1 span{
+        color: #0c2461;
+    }
+
 
     ul{
         display: flex;
@@ -40,7 +43,7 @@ export const ContainerInicio = styled.div`
             font-size: 32px;
         }
     }
-
+}
     img{
         max-width: 264px;
         border-radius: 8px;
