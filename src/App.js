@@ -1,7 +1,7 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider  } from "react-router-dom";
 
-import Inicio from "./components/inicio";
 import NavBar from "./components/navBar";
+import Inicio from "./components/inicio";
 import SobreMim from "./components/sobreMim/sobreMim";
 import Habilidades from "./components/habilidades/habilidades";
 import MeusProjetos from "./components/meusProjetos/meusProjetos";
@@ -30,10 +30,10 @@ function App() {
   return (
   <>
     <GlobalStyled />
-    <MainContainer>
-      <NavBar />
-      <RouterProvider router={rotas}/>
-    </ MainContainer>
+      <MainContainer>
+        <NavBar />
+        <RouterProvider router={rotas}/>
+      </ MainContainer>
   </>
   );
 }

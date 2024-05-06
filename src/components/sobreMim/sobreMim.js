@@ -22,7 +22,10 @@ function SobreMim(){
                 </p>
             </div>
             <div className="image">
-                <img src="#" alt="jovem futurista"></img>
+                <img 
+                    src="https://raw.githubusercontent.com/tarcio02/portfolio_react/master/src/assets/img_ia.png"
+                    alt="jovem futurista">
+                </img>
             </div>
         </ContainerSobreMim>
     )

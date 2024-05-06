@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Nav = styled.div`
@@ -21,6 +22,7 @@ export const Nav = styled.div`
         li{
             color: #0c2461;
             border: solid 1px transparent;
+            cursor: pointer;
         }
 
         li:hover{
@@ -34,3 +36,4 @@ export const Nav = styled.div`
         }
     }
 `
+

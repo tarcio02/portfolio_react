@@ -6,6 +6,7 @@ const GlobalStyled = createGlobalStyle`
     margin: 0;
     box-sizing: border-box;
     font-family: monospace;
+    background-image: url("../assets/cosmos.png");
 }
 `
 export const MainContainer = styled.div`
